@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путешествия по миру | Туры из Минска в тёплые края</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <i class="fas fa-globe-europe"></i>
+                    <span>TravelWorld</span>
+                </a>
+                <button type="button" class="mobile-menu-btn" aria-label="Открыть меню">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#tours">Туры</a></li>
+                    <li><a href="#countries">Страны</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#works">Работы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Путешествия по миру</h1>
+                <p class="subtitle">Откройте для себя самые удивительные места планеты с нами</p>
+                <p class="small-text">Туры из Минска в тёплые края: Турция, Египет, ОАЭ и другие страны на ваш вкус</p>
+                <a href="#tours" class="cta-btn">Посмотреть туры</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Популярные туры -->
+    <section id="tours" class="section tours-section">
+        <div class="container">
+            <h2 class="section-title">Популярные туры</h2>
+            <div class="tours-grid">
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Турция">
+                    </div>
+                    <div class="tour-content">
+                        <h3>Турция</h3>
+                        <p>Отдых на побережье Средиземного моря с богатой экскурсионной программой.</p>
+                        <div class="tour-details">
+                            <span class="price">от 450€</span>
+                            <span class="duration">7-14 ночей</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1513326738677-b964603b136d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Египет">
+                    </div>
+                    <div class="tour-content">
+                        <h3>Египет</h3>
+                        <p>Погружение в древнюю историю и отдых на берегу Красного моря.</p>
+                        <div class="tour-details">
+                            <span class="price">от 550€</span>
+                            <span class="duration">8-12 ночей</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="ОАЭ">
+                    </div>
+                    <div class="tour-content">
+                        <h3>ОАЭ</h3>
+                        <p>Роскошный отдых в Дубае и Абу-Даби с посещением современных чудес.</p>
+                        <div class="tour-details">
+                            <span class="price">от 700€</span>
+                            <span class="duration">5-10 ночей</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1534008897995-27a23e859048?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Греция">
+                    </div>
+                    <div class="tour-content">
+                        <h3>Греция</h3>
+                        <p>Острова Эгейского моря, античные памятники и средиземноморская кухня.</p>
+                        <div class="tour-details">
+                            <span class="price">от 520€</span>
+                            <span class="duration">7-14 ночей</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Страны -->
+    <section id="countries" class="section countries-section">
+        <div class="container">
+            <h2 class="section-title">Страны для путешествий</h2>
+            <div class="countries-list">
+                <div class="country-item">
+                    <i class="fas fa-umbrella-beach"></i>
+                    <h3>Турция</h3>
+                    <p>Стамбул, Анталья, Каппадокия</p>
+                </div>
+                <div class="country-item">
+                    <i class="fas fa-monument"></i>
+                    <h3>Египет</h3>
+                    <p>Каир, Шарм-эль-Шейх, Хургада</p>
+                </div>
+                <div class="country-item">
+                    <i class="fas fa-building"></i>
+                    <h3>ОАЭ</h3>
+                    <p>Дубай, Абу-Даби, Шарджа</p>
+                </div>
+                <div class="country-item">
+                    <i class="fas fa-water"></i>
+                    <h3>Тайланд</h3>
+                    <p>Бангкок, Пхукет, Паттайя</p>
+                </div>
+                <div class="country-item">
+                    <i class="fas fa-sun"></i>
+                    <h3>Испания</h3>
+                    <p>Барселона, Мадрид, Коста-Брава</p>
+                </div>
+                <div class="country-item">
+                    <i class="fas fa-island-tropical"></i>
+                    <h3>Мальдивы</h3>
+                    <p>Райские острова для идеального отдыха</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Отзывы -->
+        <section id="reviews" class="section reviews-section">
+            <div class="container">
+                <h2 class="section-title">Отзывы путешественников</h2>
+                <div class="reviews-container">
+                    <div class="review-slider">
+                        <div class="review-slide">
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <div class="review-avatar">
+                                        <i class="fas fa-user-circle"></i>
+                                    </div>
+                                    <div class="review-author">
+                                        <h4>Марина Иванова</h4>
+                                        <div class="review-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-content">
+                                    <p>"Отдыхали в Турции по программе от TravelWorld. Всё было организовано прекрасно: трансфер, отель, экскурсии. Особенно понравилась поездка в Каппадокию - незабываемые впечатления!"</p>
+                                </div>
+                                <div class="review-footer">
+                                    <span class="review-country">Турция, сентябрь 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-slide">
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <div class="review-avatar">
+                                        <i class="fas fa-user-circle"></i>
+                                    </div>
+                                    <div class="review-author">
+                                        <h4>Алексей Петров</h4>
+                                        <div class="review-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-content">
+                                    <p>"Ездили в Египет с детьми. Спасибо за помощь в выборе отеля с хорошим детским меню и анимацией. Ребята остались в восторге от аквапарка и морских прогулок."</p>
+                                </div>
+                                <div class="review-footer">
+                                    <span class="review-country">Египет, июль 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-slide">
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <div class="review-avatar">
+                                        <i class="fas fa-user-circle"></i>
+                                    </div>
+                                    <div class="review-author">
+                                        <h4>Ольга Сидорова</h4>
+                                        <div class="review-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-content">
+                                    <p>"ОАЭ превзошли все ожидания! Организация тура на высшем уровне. Особенно впечатлила экскурсия в пустыню и посещение самой высокой башни в мире. Обязательно поеду ещё!"</p>
+                                </div>
+                                <div class="review-footer">
+                                    <span class="review-country">ОАЭ, март 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-slide">
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <div class="review-avatar">
+                                        <i class="fas fa-user-circle"></i>
+                                    </div>
+                                    <div class="review-author">
+                                        <h4>Дмитрий Козлов</h4>
+                                        <div class="review-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-content">
+                                    <p>"Греция - страна мечты! Отличный подбор отеля на первой линии, красивые пляжи и насыщенная экскурсионная программа. Немного смутила дороговизна питания, но это особенности страны."</p>
+                                </div>
+                                <div class="review-footer">
+                                    <span class="review-country">Греция, август 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-controls">
+                        <button type="button" class="review-prev" aria-label="Предыдущий отзыв">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="review-dots">
+                            <span class="review-dot active" data-slide="0"></span>
+                            <span class="review-dot" data-slide="1"></span>
+                            <span class="review-dot" data-slide="2"></span>
+                            <span class="review-dot" data-slide="3"></span>
+                        </div>
+                        <button type="button" class="review-next" aria-label="Следующий отзыв">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="add-review">
+                        <h3>Оставьте свой отзыв</h3>
+                        <p>Поделитесь впечатлениями о путешествии с нами</p>
+                        <button type="button" class="add-review-btn">Добавить отзыв</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- О нас -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">О нашем проекте</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Проект "Путешествия по миру" создан студентом-географом для изучения и популяризации туризма в различные страны мира.</p>
+                    <p>Мы собираем и анализируем информацию о самых интересных туристических направлениях, их географических особенностях, климате и культуре.</p>
+                    <p>Наша цель - помочь путешественникам выбрать идеальное направление для отдыха, учитывая их предпочтения и бюджет.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Путешествия">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Работы -->
+    <section id="works" class="section works-section">
+        <div class="container">
+            <h2 class="section-title">Мои работы по географии</h2>
+            <div class="works-content">
+                <p>В рамках учебы и исследования туристических направлений я подготовил ряд работ, которые доступны для просмотра:</p>
+                <a href="https://drive.google.com/drive/folders/1SUw9Tg66qH9QOXnk4rcQSvB4gXwr1aFb" target="_blank" class="drive-link">
+                    <i class="fab fa-google-drive"></i>
+                    Посмотреть все работы на Google Drive
+                </a>
+                <p class="works-note">В папке вы найдете исследования, презентации и аналитические материалы по туризму в разных странах мира.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Свяжитесь со мной</h3>
+                    <p><i class="fas fa-user-graduate"></i>Студент-географ Лаврецкая Анастасия Витальевна</p>
+                    <p><i class="fas fa-envelope"></i>anastacialavretskaya@yandex.by</p>
+                    <p><i class="fas fa-phone"></i>+375444725025</p>
+                    <p><i class="fas fa-map-marker-alt"></i>Минск, Беларусь</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Оставить заявку на тур</h3>
+                    <form id="tourForm">
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="email" placeholder="Ваш email" required>
+                        <select required>
+                            <option value="" disabled selected>Выберите страну</option>
+                            <option value="turkey">Турция</option>
+                            <option value="egypt">Египет</option>
+                            <option value="uae">ОАЭ</option>
+                            <option value="greece">Греция</option>
+                            <option value="thailand">Тайланд</option>
+                        </select>
+                        <textarea placeholder="Ваши пожелания" rows="4"></textarea>
+                        <button type="submit" class="submit-btn">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-globe-europe"></i>
+                    <span>TravelWorld</span>
+                </div>
+                <p class="footer-tagline">Путешествия по миру: от Минска до самых тёплых уголков планеты</p>
+                <p class="footer-small">Туры из Минска в тёплые края: Турция, Египет, ОАЭ и другие страны на ваш вкус</p>
+                <p class="copyright">&copy; 2023 TravelWorld. Студенческий проект по географии.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
